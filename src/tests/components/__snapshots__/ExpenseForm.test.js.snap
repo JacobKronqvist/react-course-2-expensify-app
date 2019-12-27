@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render ExpenseForm correctly 1`] = `
+<div>
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      autoFocus={true}
+      onChange={[Function]}
+      placeholder="Description"
+      type="text"
+      value=""
+    />
+    <input
+      onChange={[Function]}
+      placeholder="Amount"
+      type="number"
+      value=""
+    />
+    <textarea
+      onChange={[Function]}
+      placeholder="Add a note for your expense (optional)"
+      value=""
+    />
+    <button>
+      Add Expense
+    </button>
+  </form>
+</div>
+`;
+
+exports[`Should render ExpenseForm with expense data 1`] = `
+<div>
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      autoFocus={true}
+      onChange={[Function]}
+      placeholder="Description"
+      type="text"
+      value="Gum"
+    />
+    <input
+      onChange={[Function]}
+      placeholder="Amount"
+      type="number"
+      value="1.95"
+    />
+    <textarea
+      onChange={[Function]}
+      placeholder="Add a note for your expense (optional)"
+      value=""
+    />
+    <button>
+      Add Expense
+    </button>
+  </form>
+</div>
+`;
+
+exports[`Should render error for invalid form submission 1`] = `
+<div>
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      autoFocus={true}
+      onChange={[Function]}
+      placeholder="Description"
+      type="text"
+      value=""
+    />
+    <input
+      onChange={[Function]}
+      placeholder="Amount"
+      type="number"
+      value=""
+    />
+    <textarea
+      onChange={[Function]}
+      placeholder="Add a note for your expense (optional)"
+      value=""
+    />
+    <button>
+      Add Expense
+    </button>
+  </form>
+</div>
+`;
+
+exports[`Should render error for invalid form submission 2`] = `
+<div>
+  <p>
+    Please provide description and amount.
+  </p>
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      autoFocus={true}
+      onChange={[Function]}
+      placeholder="Description"
+      type="text"
+      value=""
+    />
+    <input
+      onChange={[Function]}
+      placeholder="Amount"
+      type="number"
+      value=""
+    />
+    <textarea
+      onChange={[Function]}
+      placeholder="Add a note for your expense (optional)"
+      value=""
+    />
+    <button>
+      Add Expense
+    </button>
+  </form>
+</div>
+`;
